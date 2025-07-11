@@ -25,7 +25,7 @@ const services = [
     title: "Natal Chart Reading",
     description:
       "A deep dive into your personal birth chart. Understand your strengths, weaknesses, and life's purpose.",
-    price: "$150",
+    price: "₹701",
   },
   {
     id: "synastry-reading",
@@ -33,7 +33,7 @@ const services = [
     title: "Synastry (Couples) Reading",
     description:
       "Explore the dynamics of your relationship. A comparative analysis of two birth charts to understand compatibility.",
-    price: "$250",
+    price: "₹1101",
   },
   {
     id: "vastu-shastra",
@@ -41,7 +41,7 @@ const services = [
     title: "Vastu Shastra",
     description:
       "Harmonize your living or workspace. Guidance on selecting a property or arranging your space for optimal energy flow.",
-    price: "$200",
+    price: "₹1201 + ₹2/sq ft",
   },
   {
     id: "numerology-reading",
@@ -49,7 +49,7 @@ const services = [
     title: "Numerology Reading",
     description:
       "Uncover the mystical significance of numbers in your life. Learn about your life path, expression, and destiny numbers.",
-    price: "$100",
+    price: "₹701",
   },
   {
     id: "career-vocation",
@@ -57,7 +57,7 @@ const services = [
     title: "Career & Vocation",
     description:
       "Align your career with your cosmic calling. This reading focuses on identifying your professional strengths and path.",
-    price: "$180",
+    price: "₹601",
   },
 ];
 
