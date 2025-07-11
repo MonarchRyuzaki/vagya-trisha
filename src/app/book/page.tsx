@@ -1,5 +1,3 @@
-"use client";
-
 import { BookingForm } from "@/components/booking-form";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
@@ -43,22 +41,16 @@ export const metadata: Metadata = {
   },
 };
 
-function BookPage() {
+export default function Book() {
   return (
     <div className="flex flex-col min-h-dvh bg-background">
       <Header />
       <main className="flex-grow container mx-auto px-4 py-16 md:py-24 lg:py-32">
-        <BookingForm />
+        <Suspense fallback={<div>Loading...</div>}>
+          <BookingForm />
+        </Suspense>
       </main>
       <Footer />
     </div>
-  );
-}
-
-export default function Book() {
-  return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <BookPage />
-    </Suspense>
   );
 }
