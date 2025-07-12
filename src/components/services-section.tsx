@@ -25,7 +25,7 @@ const services = [
     title: "Natal Chart Reading",
     description:
       "A deep dive into your personal birth chart. Understand your strengths, weaknesses, and life's purpose.",
-    price: "₹701",
+    price: "₹901",
   },
   {
     id: "synastry-reading",
