@@ -41,7 +41,7 @@ const services = [
     title: "Vastu Shastra",
     description:
       "Harmonize your living or workspace. Guidance on selecting a property or arranging your space for optimal energy flow.",
-    price: "₹1201 + ₹2/sq ft",
+    price: "₹1501",
   },
   {
     id: "numerology-reading",
